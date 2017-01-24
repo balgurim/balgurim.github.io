@@ -24,6 +24,14 @@
 		list-style: none;
 	}
 
+	ul .practice {
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	.practice li {
+		list-style: decimal;
+	}
+
 	blockquote, q {
 		quotes: none;
 	}
