@@ -26,10 +26,9 @@
 
 	ul .practice {
 		font-weight: bold;
-		text-decoration: underline;
 	}
 	.practice li {
-		list-style: decimal;
+		list-style: disc;
 	}
 
 	blockquote, q {
