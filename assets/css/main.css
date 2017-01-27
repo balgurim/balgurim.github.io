@@ -27,10 +27,13 @@
 	ul .practice {
 		font-weight: bold;
 	}
-	.practice li {
-		list-style: disc;
-	}
 
+.practice li:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: #645862; /* or whatever color you prefer */
+    margin-right: 4px;
+}
 	blockquote, q {
 		quotes: none;
 	}
@@ -264,7 +267,7 @@
 	}
 
 	.row > * {
-		padding: 50px 0 0 50px;
+		padding: 10px 0 0 10px;
 	}
 
 	.row {
@@ -1594,7 +1597,7 @@
 	}
 
 	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 2em 0;
+		margin: 0 0 15px 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1612,12 +1615,14 @@
 		}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 25px;
+		font-weight: bolder;
 		letter-spacing: 0.1em;
 	}
 
 	h3 {
-		font-size: 1.15em;
+		font-size: 20px;
+		font-weight: bolder;
 		letter-spacing: 0.025em;
 	}
 
@@ -2099,7 +2104,7 @@
 
 	.wrapper {
 		margin-bottom: 5em;
-		padding: 5em;
+		padding: 20px;
 	}
 
 		.wrapper.style1 {
@@ -2466,7 +2471,7 @@
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 15px 0;
 	}
 
 		#main > :last-child {
@@ -2512,7 +2517,7 @@
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 25px 25px 10px 5px;
 		text-align: center;
 	}
 
@@ -2586,8 +2591,8 @@
 		/* Wrapper */
 
 			.wrapper {
-				margin-bottom: 4em;
-				padding: 4em 3em;
+				margin-bottom: 10px;
+				padding: 5px 5px;
 			}
 
 				.wrapper.style4 {
